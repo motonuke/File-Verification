@@ -28,8 +28,8 @@ $childrenfiltered = $children | Where-Object {$_.Length -gt 50000000} | Where-Ob
 write-host "`nFound "$childrenfiltered.count" items in "$scanpath" to verify!" -f Green
 
 # Check for and create (if needed) Logging folder
-if (-not (Test-Path $logpathfull)) {New-Item $logpathfull -Type Directory}
-if (-not (Test-Path $logpathfull\BAD_FILES)) {New-Item $logpathfull\BAD_FILES -Type Directory}
+if (-not (Test-Path $logpath)) {New-Item $logpath -Type Directory}
+if (-not (Test-Path $logpath\BAD_FILES)) {New-Item $logpath\BAD_FILES -Type Directory}
 ## Start iterating through the found files
 foreach ($child in $childrenfiltered) {
 
