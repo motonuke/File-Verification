@@ -24,4 +24,5 @@ You may also change the filtering options if desired.
 Future plans:
 
 -Create hash signature dictionary file for all files contained within a subfolder. This solves the small file issue.
+
 -Modify Script to accept command line parameters. This is mainly for ease of use and portability.
