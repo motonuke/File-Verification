@@ -13,7 +13,7 @@ There are some shortcomings. Mainly this is aimed at larger files, as seen by th
 
 Requuirements:
 
-Powershell 5.x or higher. I wrote this on PowerShell v5.1 (Native version in Windows 2016). Running on older versions of PowerShell may work. You results may very, use at your own peril.
+Powershell 5.x or recommended. I wrote this on a system with PowerShell v5.1 (Native version in Windows 2016). Running on an older version of PowerShell may work. You results may vary, use at your own peril.
 
 Usage:
 
