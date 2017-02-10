@@ -11,6 +11,10 @@ The script will scan a set of folders and do the following:
 
 There are some shortcomings. Mainly this is aimed at larger files, as seen by the filters applied. Additionally, ever single file intended to be scanned will have its own paired hash signature file. For larger directories with smaller files (music files, pictures, etc.), this is not going to be feasible. 
 
+Requuirements:
+
+Powershell 5.x or higher. I wrote this on PowerShell v5.1 (Native version in Windows 2016). Running on older versions of PowerShell may work. You results may very, use at your own peril.
+
 Usage:
 
 Edit the file and change the following parameters to suit your environment:
